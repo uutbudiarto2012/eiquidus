@@ -27,8 +27,7 @@
     "create-backup": "node ./scripts/create_backup.js",
     "restore-backup": "node ./scripts/restore_backup.js",
     "delete-database": "node ./scripts/delete_database.js",
-    "update-explorer": "node ./scripts/update_explorer.js",
-    "init-blockchain": "npm-run-all --parallel sync-blocks sync-markets"
+    "update-explorer": "node ./scripts/update_explorer.js"
   },
   "dependencies": {
     "async": "^3.2.4",
@@ -42,6 +41,7 @@
     "mongodb": "^6.1.0",
     "mongoose": "^8.0.3",
     "morgan": ">=1.10.0",
+    "node-cron": "^3.0.3",
     "postman-request": "^2.88.1-postman.31",
     "pug": "~3.0.2",
     "qr-image": "^3.2.0",
